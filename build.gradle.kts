@@ -38,7 +38,7 @@ dependencies {
 }
 
 group = "me.wega"
-version = "0.1b"
+version = "0.1.0b"
 description = "Common usage util for plugins made by Wega"
 java.sourceCompatibility = JavaVersion.VERSION_17
 
