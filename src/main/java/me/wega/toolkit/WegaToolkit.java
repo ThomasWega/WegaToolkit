@@ -7,9 +7,8 @@ import dev.jorel.commandapi.CommandAPIBukkitConfig;
 import net.kyori.adventure.platform.bukkit.BukkitAudiences;
 import org.bukkit.plugin.java.JavaPlugin;
 
-
 public final class WegaToolkit extends JavaPlugin {
-    public static me.wega.toolkit.WegaToolkit instance;
+    public static WegaToolkit instance;
     public static BukkitAudiences adventure;
 
     @Override

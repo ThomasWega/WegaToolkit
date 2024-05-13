@@ -25,3 +25,4 @@ Common usage util for plugins made by Wega
 - [CommandAPI from dev.jorel](https://github.com/JorelAli/CommandAPI)
 - [InventoryFramework from com.github.stefvanschie](https://github.com/stefvanschie/IF)
 - [CustomBlockData from com.jeff_media](https://github.com/mfnalex/CustomBlockData)
+- [Kyori Adventure from net.kyori](https://github.com/KyoriPowered/adventure)

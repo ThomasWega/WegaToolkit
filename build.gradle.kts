@@ -54,7 +54,7 @@ publishing {
 
 tasks {
     shadowJar {
-        archiveFileName.set("${project.name}-${project.version}.jar")
+        archiveFileName.set("TT${project.name}-${project.version}.jar")
         relocate("com.jeff_media.morepersistentdatatypes", "me.wega.shadow.morepersistentdatatypes")
         relocate("dev.jorel.commandapi", "me.wega.shadow.commandapi")
         relocate("com.github.stefvanschie.inventoryframework", "me.wega.shadow.IF")
