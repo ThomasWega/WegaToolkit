@@ -1,0 +1,10 @@
+name: WegaToolkit
+version: '${version}'
+main: me.wega.toolkit.WegaToolkit
+api-version: '1.17'
+authors:
+  - Wega
+softdepend:
+  - NBTAPI
+  - WorldGuard
+  - FastAsyncWorldEdit

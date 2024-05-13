@@ -1,0 +1,8 @@
+item:
+  material: DIAMOND_HOE
+  display: "<green>Example Item"
+  lore: # [] for empty
+    - "<yellow>1"
+    - "<yellow>2"
+  customModel: 0 # 0 or remove section for none
+  base64: # Will ignore material. Remove section to disable

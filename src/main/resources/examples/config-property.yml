@@ -1,0 +1,13 @@
+# Double values always need to have a decimal point, even if it's zero. Otherwise, they are picked up as integers and errors will arise
+double-value: 100.0
+int-value: 100
+string-value: "Hello, World!"
+string-list-value:
+  - "Hello, World!"
+  - "Hello, World!"
+int-list-value:
+  - 100
+  - 100
+double-list-value:
+  - 100.0
+  - 100.0

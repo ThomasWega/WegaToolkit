@@ -1,0 +1,17 @@
+navigation:
+  next-page:
+    material: PAPER
+    display: "<yellow>Next Page"
+    lore: []
+  previous-page:
+    material: PAPER
+    display: "<yellow>Previous Page"
+    lore: []
+  go-back:
+    material: PAPER
+    display: "<yellow>Go Back"
+    lore: []
+  close:
+    material: PAPER
+    display: "<yellow>Close"
+    lore: []
