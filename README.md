@@ -1,5 +1,5 @@
 # WegaToolkit
-Common usage util for plugins made by Wega
+Common usage utils for plugins made by Wega
 
 ## Features:
 - ItemBuilder
