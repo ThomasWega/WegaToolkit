@@ -21,7 +21,7 @@ java {
 }
 
 dependencies {
-    compileOnly("org.spigotmc:spigot:1.17.1-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot:1.17-R0.1-SNAPSHOT")
     implementation("net.kyori:adventure-platform-bukkit:4.3.2")
     implementation("net.kyori:adventure-text-serializer-plain:4.17.0")
     implementation("org.jetbrains:annotations:24.0.1")
@@ -37,7 +37,7 @@ dependencies {
 }
 
 group = "me.wega"
-version = "0.1-SNAPSHOT"
+version = "0.1b"
 description = "toolkit"
 java.sourceCompatibility = JavaVersion.VERSION_17
 
@@ -54,10 +54,11 @@ publishing {
 
 tasks {
     shadowJar {
-        relocate("com.jeff_media.morepersistentdatatypes", "me.wega.morepersistentdatatypes")
-        relocate("dev.jorel.commandapi", "me.wega.commandapi")
-        relocate("com.github.stefvanschie.inventoryframework", "me.wega.IF")
-        relocate("com.jeff_media.customblockdata", "me.wega.customblockdata")
+        archiveFileName.set("${project.name}-${project.version}.jar")
+        relocate("com.jeff_media.morepersistentdatatypes", "me.wega.shadow.morepersistentdatatypes")
+        relocate("dev.jorel.commandapi", "me.wega.shadow.commandapi")
+        relocate("com.github.stefvanschie.inventoryframework", "me.wega.shadow.IF")
+        relocate("com.jeff_media.customblockdata", "me.wega.shadow.customblockdata")
     }
     compileJava {
         options.encoding = Charsets.UTF_8.name()
