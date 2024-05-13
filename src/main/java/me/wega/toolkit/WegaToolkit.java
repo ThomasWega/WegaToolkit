@@ -14,16 +14,14 @@ public final class WegaToolkit extends JavaPlugin {
     @Override
     public void onLoad() {
         instance = this;
-        adventure = BukkitAudiences.create(this);
-        CommandAPI.onLoad(new CommandAPIBukkitConfig(this)
-                .shouldHookPaperReload(true)
-        );
+        CommandAPI.onLoad(new CommandAPIBukkitConfig(this));
     }
 
     @Override
     public void onEnable() {
-        InitializeStatic.initializeAll(ConfigValue.class);
         CommandAPI.onEnable();
+        adventure = BukkitAudiences.create(this);
+        InitializeStatic.initializeAll(ConfigValue.class);
     }
 
     @Override
