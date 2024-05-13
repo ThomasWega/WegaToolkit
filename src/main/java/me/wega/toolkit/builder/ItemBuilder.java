@@ -417,7 +417,7 @@ public class ItemBuilder {
     public ItemBuilder damage(short durability) {
         this.durability = durability;
         damageable.setDamage(durability);
-        itemStack.setItemMeta(damageable);
+        itemStack.setItemMeta((ItemMeta) damageable);
         return this;
     }
 
