@@ -1,17 +1,22 @@
 navigation:
   next-page:
     material: PAPER
+    # base64: value # Textured skulls. Will ignore material. Remove section to disable
     display: "<yellow>Next Page"
-    lore: []
+    lore: [] # [] for empty
+    customModel: 0 # 0 or remove section for none
   previous-page:
     material: PAPER
     display: "<yellow>Previous Page"
     lore: []
+    customModel: 0
   go-back:
     material: PAPER
     display: "<yellow>Go Back"
     lore: []
+    customModel: 0
   close:
     material: PAPER
     display: "<yellow>Close"
     lore: []
+    customModel: 0
